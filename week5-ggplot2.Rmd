@@ -1,10 +1,8 @@
 ---
-title: "Week 8: Intro to ggplot"
+title: "Week 5: Intro to ggplot"
 output:
   html_document:
     toc: true
-    include:
-      after_body: footer.html
 ---
 
 ```{r setup, include=FALSE}
@@ -94,7 +92,6 @@ There are two different workflows that you need to decide on.
 
 Gravitating to option 1 will make your life with `ggplot()` easier, but let's start with option 2.
 
-![Important](images/Emblem-important-red.svg.png)
 *Fixed* lines, points attributes go *outside* of `aes()` in a `geom_...()` call. *Dynamic* attributes go *inside* of `aes()`.
 
 
